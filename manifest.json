@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "nexa",
+  "name": "Nexa",
+  "ticker": "NEXA",
+  "version": "0.1.9",
+  "kind": "utxo",
+  "networkId": "nexa-mainnet",
+  "decimals": 2,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "nexa-sdk",
+  "coin": {
+    "id": "nexa",
+    "name": "Nexa",
+    "ticker": "NEXA",
+    "networkId": "nexa-mainnet",
+    "supportsMemo": false,
+    "satsPerCoin": 100,
+    "walletEngine": "nexa-utxo",
+    "utxoReadProfile": "electrum"
+  },
+  "icon": "icon.svg"
+}
